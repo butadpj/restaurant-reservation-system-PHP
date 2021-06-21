@@ -1,0 +1,76 @@
+:root {
+  --light: rgb(231, 224, 224);
+  --dark: rgb(44, 42, 42);
+  --shade-pink: rgb(228, 184, 201);
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: var(--shade-pink) !important;
+}
+
+.navbar-brand {
+  margin-right: 2em;
+}
+
+.navbar .nav-item {
+  margin-right: 1em !important;
+}
+
+.nav-link.active {
+  background: var(--dark) !important;
+  border-radius: 50rem;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  color: var(--light) !important;
+}
+
+.home-bg {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 40rem;
+}
+
+.home-bg .bg-text {
+  position: absolute;
+  color: var(--light);
+  top: 35%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 55%;
+}
+
+.bg-text p {
+  font-size: 4.5em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.bg-text .cta {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.bg-text .cta:hover {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.tagline {
+  font-weight: 800;
+}
+
+.label {
+  background: var(--dark);
+  color: var(--light);
+  padding: 1em;
+}
+
+.label p {
+  margin-bottom: 0;
+}
